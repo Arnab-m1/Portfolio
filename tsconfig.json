@@ -1,0 +1,10 @@
+// {
+//   "extends": "astro/tsconfigs/strict"
+// }
+
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["babel__traverse", "mdast"]
+  }
+}
